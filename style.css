@@ -1,0 +1,403 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&display=swap');
+
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+header {
+
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    width: 100vw;
+    height: 150px;
+    border-bottom: solid 5px #58ff8a;
+    box-shadow: 0px 0px 20px #58ff8a;
+    
+
+}
+
+header > img {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.navegaçao-primaria {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.navegaçao-primaria > li > a {
+
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    transition: 0.5s;
+
+}
+
+.navegaçao-primaria > li > a:hover {
+
+    text-decoration: underline #58ff8a;
+    
+
+}
+
+.section-div{
+
+    animation: inicializar .7s forwards;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.7s;
+    
+}
+
+
+.section-div > img {
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+}
+
+
+
+.cv {
+
+    border: solid 2px #58ff8a;
+    background-color: #000000;
+    padding: 10px;
+    position: absolute;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+
+    transform: translateY(20px);
+
+}
+
+.botao {
+
+    border: solid 2px #58ff8a;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+    height: 48px;
+    width: 130px;
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+    transform: translateY(20px);
+
+}
+
+.botao:hover {
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.cv:hover {
+    box-shadow: 2px 2px 2px black;
+   
+}
+
+@keyframes inicializar {
+    from {
+
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+
+    }
+
+
+}
+
+.digitando::after {
+
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .5s infinite;
+
+}
+
+@keyframes pisca {
+    from {
+
+        opacity: 1;
+    }
+
+    to {
+
+        opacity: 0;
+
+    }
+
+
+}
+
+.linha {
+
+    border-bottom: solid 2px #2b134b;
+    width: 70vw;
+    display: block;
+    margin: 0px auto;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.projetos > h2 {
+
+font-family: 'noto sans', sans-serif;
+font-weight: bolder;
+font-size: 30px;
+margin-top: 50px;
+justify-content: center;
+margin-left: 15%;
+
+
+}
+
+.projetos > h2::after {
+
+    position: absolute;
+    content: '';
+    width: 5%;
+    background-color: #2b134b;
+    height: 5px;
+    display: block;
+    transform: translate(2px, -5px);
+    border-radius: 30px;
+    margin-top: 5px;
+    
+    }
+
+    .layout > img{
+
+        margin-top: 50px;
+        width: 500px;
+        height: 400px;
+    }
+
+    .layout {
+        
+        
+        display: flex;
+        margin: 0px auto;
+        width: 70vw;
+        margin-bottom: 30px;
+        
+
+    }
+
+    .texto {
+
+        float: right;
+        flex-direction: column;
+        position: relative;
+        top: 60px;
+        margin-left: 100px;
+
+        
+        
+    }
+
+    .texto > p {
+
+        font-family: 'Poppins', 'sans-serif';
+        margin-top: 20px;
+    }
+
+    .texto > h2 {
+
+        font-family: 'noto sans', 'sans-serif';
+        font-weight: bolder;
+    }
+
+    .texto > aside {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 35%;
+        top: 50%;
+        font-size: 40px;
+        gap: 30px;
+        color: #2b134b;
+    }
+
+    .texto > aside > i#html:hover {
+
+
+        transform: scale(1.1);
+
+    }
+
+    .texto > aside >i#css:hover {
+
+
+        transform: scale(1.1);
+
+    }
+
+    .texto > aside >i#javascript:hover {
+
+
+        transform: scale(1.1);
+
+    }
+    
+    footer {
+
+        background-color: #000000;
+        width: 100%;
+        padding: 30px;
+        margin-top: 50px;
+        border-top: solid 5px #3dff77;
+        box-shadow: 0px 0px 30px #58ff8a;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        gap: 50px;
+
+    }
+
+    footer > nav > h2 {
+
+        color: rgb(255, 255, 255);
+        font-family: 'noto sans', 'sans-serif';
+
+    }
+
+    footer > nav > h2::after {
+
+        content: '';
+        background-color: #58ff8a;
+        width: 25%;
+        height: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+    }
+
+
+    .navegaçao-secundaria > li > a {
+
+        color: rgb(202, 202, 202);
+        text-decoration: none;
+        list-style: circle;
+        margin-top: 30px;
+    }
+
+    .navegaçao-secundaria > li > a:hover {
+
+        text-decoration: underline #58ff8a;
+    }
+
+    .navegaçao-secundaria > li {
+
+        color: white;
+        text-decoration: none;
+        margin-top: 5px;
+        font-family: 'poppins', 'sans-serif';
+        
+        
+    }
+
+    .contatos {
+
+        color: white;
+        gap: 20px;
+        
+    }
+
+    .contatos > h2 {
+
+        color: white;
+        font-family: 'noto sans', 'sans-serif';
+        
+    }
+
+    .contatos > ul > li > a{
+
+        color: rgb(201, 201, 201);
+        text-decoration: none;
+        font-family: 'poppins', 'sans-serif';
+        position: absolute;
+        transform: translate(7px,4px);
+        font-size: 15px;
+        
+    }
+
+    .contatos > ul > li > i{
+
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    .contatos > h2::after {
+
+        content: '';
+        background-color: #58ff8a;
+        width: 50%;
+        height: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        
+    }
+
+    .contatos > ul > li > i#email {
+
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-top: 7px;
+    }
+    
+ main {
+
+    
+ }
