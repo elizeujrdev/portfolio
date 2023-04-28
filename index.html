@@ -11,8 +11,11 @@
     <title>Portfolio</title>
 </head>
 
-<body>
-    <header>
+<body id="body">
+    <header id="header">
+        <div class="icone" onclick="tema()">
+                
+            <i class="fa-solid fa-sun" id="icone"></i></div>
         <nav class="nav-bar">
             <div class="logo">
                 <a href="index.html"><img src="assets/img/Logotipo Moderno Tecnologia e Gaming Roxo.png" alt=""></a>
@@ -39,29 +42,30 @@
         </div>
     </header>
 
-        <div class="section-div">
+        <div class="section-div" id="section-div">
             <img src="assets/img/foto redonda2.png" alt="">
             <div>
-                <h2 class="eu">Olá, me chamo Elizeu e sou um</h2>
-                <h2 class="digitando">Desenvolvedor Web</h2>
-                <button class="botao">Sobre mim</button>
-                <a class="cv" href="assets/pdf/CV Elizeu Junior.pdf" target="_blank">Download CV</a>
+                <h2 class="eu" id="eu">Olá, me chamo Elizeu e sou um</h2>
+                <h2 class="digitando" id="digitando">Desenvolvedor Web</h2>
+                <button class="botao" id="botao">Sobre mim</button>
+                <a class="cv" id="cv" href="assets/pdf/CV Elizeu Junior.pdf" target="_blank">Download CV</a>
             </div>
 
         </div>
-        <div class = "linha">
+        <div class="linha" id="linha">
         </div>
 
         <main>
-            <div class="projetos">
-                <h2>PROJETOS</h2></div>
-                <div class="layout">
-                <a href="https://elizeujrdev.github.io/login/index.html" target="_blank"><img src="assets/img/website-mockup-2-devices.png" alt=""></a>
+            <div class="projetos" id="projetos">
+                <h2>PROJETOS</h2>
+            </div>
+                <div class="layout" id="layout">
+                <a href="https://elizeujrdev.github.io/login/index.html" target="_blank"><img id="img" src="assets/img/website-mockup-2-devices.png" alt=""></a>
     
-                <section class="texto">
+                <section class="texto" id="texto">
                 <h2>LOGIN</h2>
                 <p>Pagina de Login responsiva e tematizada produzida durante meu curso. Nele pude fixar mais meu conhecimento em 
-                   <strong>JavaScript</strong> e <strong>CSS</strong>, para criar o sistema de "Dark Mode" e "Light Mode" utilizei o <code>ClassList</code>, que nesse caso foi usada para retirar e adicionar a classe "dark" aos elementos.</p>
+                   <strong>JavaScript</strong> e <strong>CSS</strong>, para criar o sistema de "Dark Mode" e "Light Mode" utilizei o <code>ClassList</code>, que nesse caso foi usado para retirar e adicionar a classe "dark" aos elementos.</p>
                     <aside>
                         <i class="fa-brands fa-html5" id="html"></i>
                         <i class="fa-brands fa-css3-alt" id="css"></i>
@@ -73,17 +77,17 @@
 
     <script src="assets/js/script.js"></script>
 </body>
-<footer>
+<footer id="footer">
     <nav>
         <h2>Navegação rapida</h2>
-        <ul class="navegaçao-secundaria">
+        <ul class="navegaçao-secundaria" id="navegaçao-secundaria">
         <li><a href="index.html">Início</a></li>
         <li><a href="sobre.html">Sobre mim</a></li>
         <li><a href="contato.html">Contato</a></li>
         </ul>
         </nav>
 
-        <section class="contatos">
+        <section class="contatos" id="contatos">
             <h2>Contatos</h2>
                 <ul>
                     <li><i class="fa-brands fa-whatsapp"></i><a href="https://api.whatsapp.com/send?phone=5534984102114" target="_blank">  (34) 98410-2114</a></li>

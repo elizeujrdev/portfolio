@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&display=swap');
 
-* {
+ * {
     padding: 0;
     margin: 0;
     transition: 1s;
@@ -430,5 +430,263 @@ footer > nav > h2::after {
     color: rgb(255, 255, 255);
     font-size: 20px;
     margin-top: 7px;
+}
+
+.icone {
+
+    
+    font-size: 30px;
+    position: relative;
+    left: 70%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    width: 10px;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+}
+
+.dark#body {
+
+    background-color: #000000;
+
+}
+
+
+.dark#header {
+    border-bottom: solid 2px #58ff8a;
+    box-shadow: 0px 0px 20px #58ff8a;
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.dark#section-div{
+
+    animation: inicializar .7s forwards;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.7s;
+    margin-top: 10%;
+    
+}
+
+.dark#eu {
+
+    color: #fff;
+
+}
+
+.dark#digitando {
+
+    color: white;
+
+}
+
+.dark#section-div > img {
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+}
+
+.dark#cv {
+
+    border: solid 2px #58ff8a;
+    background-color: #000000;
+    padding: 10px;
+    position: absolute;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+
+    transform: translateY(20px);
+
+}
+
+.dark#botao {
+
+    border: solid 2px #58ff8a;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+    height: 48px;
+    width: 130px;
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+    transform: translateY(20px);
+    transition: 0.5s;
+
+}
+
+.dark#botao:hover {
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+
+}
+
+.dark#cv:hover {
+    box-shadow: 2px 2px 2px rgb(255, 255, 255);
+   
+}
+
+.dark#projetos > h2 {
+
+    font-family: 'noto sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 15%;
+    color: white;    
+    
+    }
+    
+    .dark#projetos > h2::after {
+    
+        position: absolute;
+        content: '';
+        width: 5%;
+        background-color: #58ff8a;
+        height: 5px;
+        display: block;
+        transform: translate(2px, -5px);
+        border-radius: 30px;
+        margin-top: 5px;
+        
+    }
+    
+        .dark#layout {
+            
+            
+            display: flex;
+            margin: 0px auto;
+            width: 70vw;
+            margin-bottom: 30px;
+            
+    
+        }
+    
+        .dark#texto {
+    
+            float: right;
+            flex-direction: column;
+            position: relative;
+            top: 60px;
+            margin-left: 100px;
+    
+            
+            
+        }
+    
+        .dark > section#texto > p {
+    
+            font-family: 'Poppins', 'sans-serif';
+            margin-top: 20px;
+            color: white;
+        }
+    
+        .dark > section#texto > h2 {
+    
+            font-family: 'noto sans', 'sans-serif';
+            font-weight: bolder;
+            color: white;
+        }
+    
+        .dark#texto > aside {
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 35%;
+            top: 50%;
+            font-size: 40px;
+            gap: 30px;
+            color: #bdbdbd;
+            text-shadow: 1px 2px 2px #3dff77;
+        }
+    
+
+@keyframes inicializar {
+    from {
+
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+
+    }
+
+}
+
+.dark#digitando::after {
+
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .5s infinite;
+
+}
+
+@keyframes pisca {
+    from {
+
+        opacity: 1;
+    }
+
+    to {
+
+        opacity: 0;
+
+    }
+
+
+}
+
+.dark#linha {
+
+    border-bottom: solid 2px #3dff77;
+    width: 70vw;
+    display: block;
+    margin: 0px auto;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.dark#footer {
+
+    background-color: #161616;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border-top: solid 2px #3dff77;
+    box-shadow: 0px 0px 20px #58ff8a;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 50px;
 }
 

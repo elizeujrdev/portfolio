@@ -388,5 +388,227 @@
                 width: 150px;
                 height: 150px;
                 margin-right: 0px;
+                right: 60%;
+                top: 10px;
+                position: absolute;
+                
             }
+
+            .icone {
+
+                left: 50%;
+                top: 10px;
+                position: absolute;
+            }
+
+            .dark#section-div{
+
+                animation: inicializar .7s forwards;
+                animation-timing-function: ease-in-out;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Poppins', sans-serif;
+                transition: 0.7s;
+                margin-top: 10%;
+                flex-direction: column;
+                width: 100vw;
+                
+                
+            }
+        
+            .dark#eu {
+        
+                width: 80%;
+                text-align: center; 
+                margin-left: 27px;
+                color: white;
+            }
+        
+            .dark#digitando {
+        
+                text-align: center;
+                color: white;
+            
+        
+            }
+        
+            
+            .dark#section-div > img {
+                width: 250px;
+                height: 250px;
+                margin-right: 0px;
+            }
+            
+            .dark#cv {
+            
+                border: solid 2px #58ff8a;
+                background-color: #000000;
+                padding: 13px;
+                border-radius: 30px;
+                color: rgb(255, 255, 255);
+                font-family: 'Poppins', sans-serif;
+                font-weight: bolder;
+                position: relative;
+                
+                height: 48px;
+                width: 130px;
+                margin-right: 10px;
+                font-size: 15px;
+                cursor: pointer;
+                top: 20px;
+                left: 50px;
+            
+                transform: translate(20px, 40px);
+            
+            }
+            
+            .dark#botao {
+            
+                border: solid 2px #58ff8a;
+                background-color: #000000;
+                padding: 10px;
+                border-radius: 30px;
+                color: rgb(255, 255, 255);
+                font-family: 'Poppins', sans-serif;
+                font-weight: bolder;
+                
+                height: 48px;
+                width: 130px;
+                margin-right: 10px;
+                font-size: 15px;
+                cursor: pointer;
+
+                transform: translate(50px, 20px);
+            
+            }
+            
+            .dark#botao:hover {
+                box-shadow: 2px 2px 2px rgb(255, 255, 255);
+            
+            }
+            
+            .dark#cv:hover {
+                box-shadow: 2px 2px 2px rgb(255, 255, 255);
+               
+            }
+        
+            .dark#projetos > h2 {
+        
+                font-family: 'noto sans', sans-serif;
+                font-weight: bolder;
+                font-size: 30px;
+                margin-top: 50px;
+                justify-content: center;
+                margin-left: 15%;
+                color: white;
+                
+                
+                }
+                
+                .dark#projetos > h2::after {
+                
+                    position: absolute;
+                    content: '';
+                    width: 20%;
+                    background-color: #58ff8a;
+                    height: 5px;
+                    display: block;
+                    transform: translate(2px, -5px);
+                    border-radius: 30px;
+                    margin-top: 5px;
+                    
+                    }
+                
+                    .dark#layout > a > img{
+                
+                        margin-top: 50px;
+                        width: 100%;
+                        height: 100%;
+                    }
+                
+                    .dark#layout {
+                        
+                        
+                        display: flex;
+                        margin: 0px auto;
+                        width: 70vw;
+                        margin-bottom: 30px;
+                        flex-direction: column;
+                        
+                
+                    }
+                
+                    .dark#texto {
+                
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        top: 60px;
+                        margin-left: 0px;
+                        width: 100%;
+                        
+                        
+                    }
+                
+                    .dark#texto > p {
+                
+                        font-family: 'Poppins', 'sans-serif';
+                        margin-top: 20px;
+                        color: white;
+                    }
+                
+                    .dark#texto > h2 {
+                
+                        font-family: 'noto sans', 'sans-serif';
+                        font-weight: bolder;
+                        color: white;
+                    }
+                
+                    .dark#texto > aside {
+                
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                        left: 0px;
+                        top: 0%;
+                        font-size: 40px;
+                        gap: 30px;
+                        color: #c2c2c2;
+                        margin-top: 30px;
+                        margin-bottom: 50px;
+                    }
+                
+        
+                    .dark#footer {
+        
+                        background-color: #161616;
+                        width: 100%;
+                        height: 200px;
+                        padding: 0px;
+                        margin-top: 0px;
+                        border-top: solid 2px #3dff77;
+                        box-shadow: 0px 0px 20px #58ff8a;
+                        display: flex;
+                        justify-content: left;
+                        margin: 0px auto;
+                        gap: 35px;
+                        font-size: 12px;
+                
+                    }
+        
+                    .dark#header {
+                        border-bottom: solid 2px #58ff8a;
+                        box-shadow: 0px 0px 20px #58ff8a;
+                        background-color: #161616;
+                        display: block;
+                    }
+                
+
+                    .dark#body {
+
+                        background-color: #000000
+
+                    }
 }
