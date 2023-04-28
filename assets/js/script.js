@@ -46,10 +46,10 @@ function tema() {
     var texto = document.getElementById('texto')
 
 
-    if (mode.classList.contains('fa-sun')) {
+    if (mode.classList.contains('fa-moon')) {
 
-        mode.classList.remove('fa-sun')
-        mode.classList.add('fa-moon')
+        mode.classList.remove('fa-moon')
+        mode.classList.add('fa-sun')
 
         header.classList.add ('dark')
         body.classList.add('dark')
@@ -74,8 +74,8 @@ function tema() {
         return;
     }
 
-    mode.classList.remove('fa-moon')
-    mode.classList.add('fa-sun')
+    mode.classList.remove('fa-sun')
+    mode.classList.add('fa-moon')
 
     header.classList.remove('dark')
     body.classList.remove('dark')
