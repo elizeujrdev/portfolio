@@ -44,7 +44,12 @@ function tema() {
     var contatos = document.getElementById('contatos')
     var imagem = document.getElementById('img')
     var texto = document.getElementById('texto')
-
+    var sobremim = document.getElementById('sobremim')
+    var quemsou = document.getElementById('quemsou')
+    var gosto = document.getElementById('gosto')
+    var profissional = document.getAnimations('profissional')
+    var escolhi = document.getElementById('escolhi')
+    var educaçao = document.getElementById('educaçao')
 
     if (mode.classList.contains('fa-moon')) {
 
@@ -65,6 +70,12 @@ function tema() {
         footer.classList.add('dark')
         navegaçao.classList.add('dark')
         contatos.classList.add('dark')
+        sobremim.classList.add('dark')
+        gosto.classList.add('dark')
+        quemsou.classList.add('dark')
+        profissional.classList.add('dark')
+        escolhi.classList.add('dark')
+        educaçao.classList.add('dark')
         imagem.src = "assets/img/website-mockup-2-devices-themes.png"
         mode.style.color = "white"
         mode.style.transition = "1.5s"
@@ -91,9 +102,21 @@ function tema() {
     footer.classList.remove('dark')
     navegaçao.classList.remove('dark')
     contatos.classList.remove('dark')
+    sobremim.classList.remove('dark')
+    gosto.classList.remove('dark')
+    quemsou.classList.remove('dark')
+    profissional.classList.remove('dark')
+    escolhi.classList.remove('dark')
+    educaçao.classList.remove('dark')
     imagem.src = "assets/img/website-mockup-2-devices.png"
     imagem.style.transition = "1.5s"
     mode.style.color = "white"
     mode.style.transition = "1.5s"
+
+}
+
+function sobre() {
+
+    window.location.href = "sobre.html"
 
 }
