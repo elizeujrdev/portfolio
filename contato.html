@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Contato</title>
 </head>
-<body>
-    
+<body id="body">
+    <header id="header">
+        <div class="icone" onclick="tema()">
+                
+            <i class="fa-solid fa-moon" id="icone"></i></div>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="assets/img/Logotipo Moderno Tecnologia e Gaming Roxo.png" alt=""></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+
+        </div>
+    </header>
+        
+    <div class="form" id="form">
+        <h1>CONTATO</h1>
+        <form action="https://formsubmit.co/jrexxtreme@email.com" method="post">
+
+            <p><label for="name">Nome:</label></p>
+            <input type="text" name="name" id="name" placeholder="Nome" required><br>
+
+        <p><label for="subject">Assunto:</label></p>
+            <input type="text" name="subject" id="subject" placeholder="Assunto" required><br>
+
+            <p><label for="email">E-mail:</label></p>
+            <input type="email" name="email" id="subject" placeholder="E-mail" required><br>
+
+            <p><label for="phone">Telefone:</label></p>
+            <input type="text" name="phone" id="phone" placeholder="Telefone" required><br>
+
+            <p><label for="message">Mensagem:</label></p>
+            <textarea name="message" id="message"></textarea placeholder="Mensagem" required>
+
+
+            <input class="botao" id="botao" type="submit" value="ENVIAR"/>
+        </form>
+    </div>
+    <script src="assets/js/script3.js"></script>
 </body>
+<footer id="footer">
+    <nav>
+        <h2>Navegação rapida</h2>
+        <ul class="navegaçao-secundaria" id="navegaçao-secundaria">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre mim</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        </ul>
+        </nav>
+
+        <section class="contatos" id="contatos">
+            <h2>Contatos</h2>
+                <ul>
+                    <li><i class="fa-brands fa-whatsapp"></i><a href="https://api.whatsapp.com/send?phone=5534984102114" target="_blank">  (34) 98410-2114</a></li>
+                    <li class="email"><i class="fa-regular fa-envelope" id="email"></i><a href="">elizeujunior761@gmail.com</a></li>
+                </ul>
+
+        </section>
+
+</footer>
 </html>
