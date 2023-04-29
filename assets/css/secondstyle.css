@@ -639,15 +639,10 @@ animation: inicializar .7s forwards;
 
     @media screen and (max-width: 730px) {
 
-    body {
-
-        overflow-x: hidden;
-    }
 
     .sobremim {
 
         width: 80vw;
-        margin-left: 8px;
 
     }        
 
@@ -725,7 +720,7 @@ animation: inicializar .7s forwards;
     .dark#sobremim {
 
         width: 80vw;
-        margin-left: 8px;
+        
 
     }        
 
