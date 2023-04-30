@@ -261,6 +261,103 @@ header {
         }
 
 
+        .layout2 > a > img{
+    
+           
+            width: 500px;
+            height: 400px;
+            justify-content: end;
+            display: grid;
+            margin-left: 0px;
+            
+        }
+
+        .layout2 > a {
+
+            position: relative;
+            transform: translateX(500px);
+        }
+    
+        .layout2 {
+            
+            
+            display: flex;
+            margin: 0px auto;
+            width: 50vw;
+            margin-bottom: 30px;
+            
+    
+        }
+    
+        .texto2 {
+    
+            float: right;
+            flex-direction: column;
+            position: relative;
+            top: 60px;
+            margin-left: 100px;
+    
+            
+            
+        }
+    
+        .texto2 > p {
+    
+            font-family: 'Poppins', 'sans-serif';
+            margin-top: 20px;
+            position: absolute;
+            right: 200px;
+            width: 450px;
+            text-align: justify;
+            top: 100px;
+        }
+    
+        .texto2 > h2 {
+    
+            font-family: 'noto sans', 'sans-serif';
+            font-weight: bolder;
+            position: absolute;
+            right: 350px;
+            width: 300px;
+            top: 70px;
+        }
+    
+        .texto2 > aside {
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 360px;
+            top: 60%;
+            font-size: 40px;
+            gap: 30px;
+            color: #2b134b;
+        }
+    
+        .texto2 > aside > i#html:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+    
+        .texto2 > aside >i#css:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+    
+        .texto2 > aside >i#javascript:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+
+
+
 @keyframes inicializar {
     from {
 
@@ -690,3 +787,83 @@ footer > nav > h2::after {
     gap: 50px;
 }
 
+
+.dark#layout2 > a {
+
+    position: relative;
+    transform: translateX(500px);
+}
+
+.dark#layout2 {
+    
+    
+    display: flex;
+    margin: 0px auto;
+    width: 50vw;
+    margin-bottom: 30px;
+    
+
+}
+
+.dark#texto2 {
+
+    float: right;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    margin-left: 100px;
+
+    
+    
+}
+
+.dark#texto2 > p {
+
+    font-family: 'Poppins', 'sans-serif';
+    margin-top: 20px;
+    position: absolute;
+    right: 200px;
+    width: 450px;
+    text-align: justify;
+    top: 100px;
+    color: white;
+}
+
+.dark#texto2 > h2 {
+
+    font-family: 'noto sans', 'sans-serif';
+    font-weight: bolder;
+    position: absolute;
+    right: 350px;
+    width: 300px;
+    top: 70px;
+    color: white;
+}
+
+.dark#texto2 > aside {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 360px;
+    top: 60%;
+    font-size: 40px;
+    gap: 30px;
+    color: #2b134b;
+}
+
+.dark#texto2 > aside {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 360px;
+    top: 60%;
+    font-size: 40px;
+    gap: 30px;
+    color: #bdbdbd;
+    text-shadow: 1px 2px 2px #3dff77;
+
+}

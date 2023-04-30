@@ -44,12 +44,8 @@ function tema() {
     var contatos = document.getElementById('contatos')
     var imagem = document.getElementById('img')
     var texto = document.getElementById('texto')
-    var sobremim = document.getElementById('sobremim')
-    var quemsou = document.getElementById('quemsou')
-    var gosto = document.getElementById('gosto')
-    var profissional = document.getAnimations('profissional')
-    var escolhi = document.getElementById('escolhi')
-    var educaçao = document.getElementById('educaçao')
+    var layout2 = document.getElementById('layout2')
+    var texto2 = document.getElementById('texto2')
 
     if (mode.classList.contains('fa-moon')) {
 
@@ -66,6 +62,8 @@ function tema() {
         botao.classList.add('dark')
         projetos.classList.add('dark')
         layout.classList.add('dark')
+        layout2.classList.add('dark')
+        texto2.classList.add('dark')
         linha.classList.add('dark')
         footer.classList.add('dark')
         navegaçao.classList.add('dark')
@@ -92,6 +90,8 @@ function tema() {
     botao.classList.remove('dark')
     projetos.classList.remove('dark')
     layout.classList.remove('dark')
+    layout2.classList.remove('dark')
+    texto2.classList.remove('dark')
     linha.classList.remove('dark')
     footer.classList.remove('dark')
     navegaçao.classList.remove('dark')
