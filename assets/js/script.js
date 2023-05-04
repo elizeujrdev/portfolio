@@ -46,6 +46,8 @@ function tema() {
     var texto = document.getElementById('texto')
     var layout2 = document.getElementById('layout2')
     var texto2 = document.getElementById('texto2')
+    var layout3 = document.getElementById('layout3')
+    var texto3 = document.getElementById('texto3')
 
     if (mode.classList.contains('fa-moon')) {
 
@@ -64,6 +66,8 @@ function tema() {
         layout.classList.add('dark')
         layout2.classList.add('dark')
         texto2.classList.add('dark')
+        layout3.classList.add('dark')
+        texto3.classList.add('dark')        
         linha.classList.add('dark')
         footer.classList.add('dark')
         navegaçao.classList.add('dark')
@@ -92,6 +96,8 @@ function tema() {
     layout.classList.remove('dark')
     layout2.classList.remove('dark')
     texto2.classList.remove('dark')
+    layout3.classList.add('dark')
+    texto3.classList.add('dark')
     linha.classList.remove('dark')
     footer.classList.remove('dark')
     navegaçao.classList.remove('dark')

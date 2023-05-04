@@ -275,7 +275,7 @@ header {
         .layout2 > a {
 
             position: relative;
-            transform: translateX(500px);
+            transform: translateX(450px);
         }
     
         .layout2 {
@@ -306,7 +306,7 @@ header {
             font-family: 'Poppins', 'sans-serif';
             margin-top: 20px;
             position: absolute;
-            right: 200px;
+            right: 300px;
             width: 450px;
             text-align: justify;
             top: 100px;
@@ -317,7 +317,7 @@ header {
             font-family: 'noto sans', 'sans-serif';
             font-weight: bolder;
             position: absolute;
-            right: 350px;
+            right: 450px;
             width: 300px;
             top: 70px;
         }
@@ -328,7 +328,7 @@ header {
             justify-content: center;
             align-items: center;
             position: absolute;
-            right: 360px;
+            right: 460px;
             top: 60%;
             font-size: 40px;
             gap: 30px;
@@ -350,6 +350,82 @@ header {
         }
     
         .texto2 > aside >i#javascript:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+
+        .layout3 > a > img{
+    
+            margin-top: 50px;
+            width: 500px;
+            height: 400px;
+        }
+    
+        .layout3 {
+            
+            
+            display: flex;
+            margin: 0px auto;
+            width: 70vw;
+            margin-bottom: 30px;
+            
+    
+        }
+    
+        .texto3 {
+    
+            float: right;
+            flex-direction: column;
+            position: relative;
+            top: 60px;
+            margin-left: 100px;
+    
+            
+            
+        }
+    
+        .texto3 > p {
+    
+            font-family: 'Poppins', 'sans-serif';
+            margin-top: 20px;
+        }
+    
+        .texto3 > h2 {
+    
+            font-family: 'noto sans', 'sans-serif';
+            font-weight: bolder;
+        }
+    
+        .texto3 > aside {
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 35%;
+            top: 50%;
+            font-size: 40px;
+            gap: 30px;
+            color: #2b134b;
+        }
+    
+        .texto3 > aside > i#html:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+    
+        .texto3 > aside >i#css:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+    
+        .texto3 > aside >i#javascript:hover {
     
     
             transform: scale(1.1);
@@ -791,7 +867,7 @@ footer > nav > h2::after {
 .dark#layout2 > a {
 
     position: relative;
-    transform: translateX(500px);
+    transform: translateX(450px);
 }
 
 .dark#layout2 {
@@ -822,7 +898,7 @@ footer > nav > h2::after {
     font-family: 'Poppins', 'sans-serif';
     margin-top: 20px;
     position: absolute;
-    right: 200px;
+    right: 300px;
     width: 450px;
     text-align: justify;
     top: 100px;
@@ -834,24 +910,12 @@ footer > nav > h2::after {
     font-family: 'noto sans', 'sans-serif';
     font-weight: bolder;
     position: absolute;
-    right: 350px;
+    right: 450px;
     width: 300px;
     top: 70px;
     color: white;
 }
 
-.dark#texto2 > aside {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 360px;
-    top: 60%;
-    font-size: 40px;
-    gap: 30px;
-    color: #2b134b;
-}
 
 .dark#texto2 > aside {
     
@@ -859,7 +923,7 @@ footer > nav > h2::after {
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 360px;
+    right: 460px;
     top: 60%;
     font-size: 40px;
     gap: 30px;
@@ -867,3 +931,33 @@ footer > nav > h2::after {
     text-shadow: 1px 2px 2px #3dff77;
 
 }
+
+
+.dark#texto3 > p {
+
+    font-family: 'Poppins', 'sans-serif';
+    margin-top: 20px;
+    color: white;
+}
+
+.dark#texto3 > h2 {
+
+    font-family: 'noto sans', 'sans-serif';
+    font-weight: bolder;
+    color: white;
+}
+
+.dark#texto3 > aside {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    font-size: 40px;
+    gap: 30px;
+    color: #bdbdbd;
+    text-shadow: 1px 2px 2px #3dff77;
+}
+
