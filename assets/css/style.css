@@ -432,6 +432,101 @@ header {
     
         }
 
+        .layout4 > a > img{
+    
+           
+            width: 500px;
+            height: 400px;
+            justify-content: end;
+            display: grid;
+            margin-left: 0px;
+            
+        }
+
+        .layout4 > a {
+
+            position: relative;
+            transform: translateX(450px);
+        }
+    
+        .layout4 {
+            
+            
+            display: flex;
+            margin: 0px auto;
+            width: 50vw;
+            margin-bottom: 30px;
+            
+    
+        }
+    
+        .texto4 {
+    
+            float: right;
+            flex-direction: column;
+            position: relative;
+            top: 60px;
+            margin-left: 100px;
+    
+            
+            
+        }
+    
+        .texto4 > p {
+    
+            font-family: 'Poppins', 'sans-serif';
+            margin-top: 20px;
+            position: absolute;
+            right: 300px;
+            width: 450px;
+            text-align: justify;
+            top: 100px;
+        }
+    
+        .texto4 > h2 {
+    
+            font-family: 'noto sans', 'sans-serif';
+            font-weight: bolder;
+            position: absolute;
+            right: 450px;
+            width: 300px;
+            top: 70px;
+        }
+    
+        .texto4 > aside {
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 460px;
+            top: 60%;
+            font-size: 40px;
+            gap: 30px;
+            color: #2b134b;
+        }
+    
+        .texto4 > aside > i#html:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+    
+        .texto4 > aside >i#css:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+    
+        .texto4 > aside >i#javascript:hover {
+    
+    
+            transform: scale(1.1);
+    
+        }
+
 
 
 @keyframes inicializar {
@@ -955,6 +1050,73 @@ footer > nav > h2::after {
     position: absolute;
     left: 35%;
     top: 50%;
+    font-size: 40px;
+    gap: 30px;
+    color: #bdbdbd;
+    text-shadow: 1px 2px 2px #3dff77;
+}
+
+.dark#layout4 > a {
+
+    position: relative;
+    transform: translateX(450px);
+}
+
+.dark#layout4 {
+    
+    
+    display: flex;
+    margin: 0px auto;
+    width: 50vw;
+    margin-bottom: 30px;
+    
+
+}
+
+.dark#texto4 {
+
+    float: right;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    margin-left: 100px;
+
+    
+    
+}
+
+.dark#texto4 > p {
+
+    font-family: 'Poppins', 'sans-serif';
+    margin-top: 20px;
+    position: absolute;
+    right: 300px;
+    width: 450px;
+    text-align: justify;
+    top: 100px;
+    color: white;
+}
+
+.dark#texto4 > h2 {
+
+    font-family: 'noto sans', 'sans-serif';
+    font-weight: bolder;
+    position: absolute;
+    right: 450px;
+    width: 300px;
+    top: 70px;
+    color: white;
+}
+
+
+.dark#texto4 > aside {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 460px;
+    top: 60%;
     font-size: 40px;
     gap: 30px;
     color: #bdbdbd;
